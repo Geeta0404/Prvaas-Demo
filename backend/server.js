@@ -10,12 +10,27 @@ const db = require("./config/db");
 const app = express();
 
 // ✅ Middleware
+// for vercel/railway 1st
 app.use(
   cors({
-    origin: "http://localhost:3000", // Frontend URL
-    credentials: true,
+    origin: [
+    "https://prvaas-demo.vercel.app",  // main domain
+    "https://prvaas-demo-git-main-geetas-projects-3580280f.vercel.app", // preview
+    "https://prvaas-demo-fzg0lzg47-geetas-projects-3580280f.vercel.app" // preview
+  ],
   })
 );
+
+//for local machine 2nd option
+// app.use(
+//   cors({
+//     origin: "http://localhost:3000", 
+//     credentials: true,
+//   })
+// );
+
+
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
