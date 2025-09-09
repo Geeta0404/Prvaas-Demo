@@ -5,7 +5,7 @@ import roadTrip from '../assets/road-trip.jpg';
 import HillStation from '../assets/Hill-Station.jpg';
 import Adventure from '../assets/Adv.jpeg';
 import nightLife from '../assets/Night-Life.jpg';
-import historicPlace from '../assets/Historic-Places.jpg';
+// import historicPlace from '../assets/Historic-Places.jpg';
 import Beaches from '../assets/Beaches.jpg';
 
 const activities = [

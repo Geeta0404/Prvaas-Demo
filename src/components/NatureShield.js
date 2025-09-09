@@ -15,7 +15,7 @@ export default function NatureShield() {
   const navigate = useNavigate();
 
   const slugify = (str) =>
-    str.toLowerCase().replace(/\s+/g, "-").replace(/[^\w\-]+/g, "");
+    str.toLowerCase().replace(/\s+/g, "-").replace(/[^\w-]+/g, "");
 
   useEffect(() => {
     const fetchData = async () => {

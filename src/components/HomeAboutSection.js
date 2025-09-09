@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button, Card , Nav} from 'react-bootstrap';
+import { Container, Row, Col, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './custom.css'; // You'll create this CSS file
 import BeachScene from '../assets/Beach Scene.jpg'

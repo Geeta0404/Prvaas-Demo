@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Bannerimg from '../assets/bg-aboutus.jpg';
 import { useLocation } from 'react-router-dom';
 

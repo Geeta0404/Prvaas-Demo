@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
-import {
-  FaFacebookF, FaTwitter, FaYoutube, FaPhoneAlt, FaSearch, FaBars
-} from 'react-icons/fa';
+// import {  FaFacebookF, FaTwitter, FaYoutube, FaPhoneAlt, FaSearch, FaBars} from 'react-icons/fa';
+import { FaSearch} from 'react-icons/fa';
 import Logo from '../assets/logoP.webp';
-import { NavLink, useNavigate, Link } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 
 const Header = () => {

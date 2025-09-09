@@ -21,9 +21,9 @@ const Footer = () => {
       <Container>
         <Row className="gy-4">
           <Col md={3}>
-            <a href="#" className="mb-5">
-                       <img src={Logo} alt="Traveler Logo" height="60" />
-                     </a>
+            <a href="/" className="mb-5">
+  <img src={Logo} alt="Traveler Logo" height="60" />
+</a>
             <p className="mt-3">
             Travel.Education For The Mind & Education For The Heart.
             </p>

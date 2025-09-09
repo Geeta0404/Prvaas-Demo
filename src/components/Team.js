@@ -66,9 +66,10 @@ const Team = () => {
                   <img src={doctor.imgSrc} alt={doctor.name} className="img-fluid" />
                   <div className="overlay">
                     <div className="social-icons">
-                      <a href="#" className="fab fa-facebook-f"></a>
-                      <a href="#" className="fab fa-twitter"></a>
-                      <a href="#" className="fab fa-linkedin-in"></a>
+                       <a href="/" aria-label="Facebook" className="fab fa-facebook-f"></a>
+                      <a href="/" aria-label="Twitter" className="fab fa-twitter"></a>
+                      <a href="/" aria-label="LinkedIn" className="fab fa-linkedin-in"></a>
+
                     </div>
                   </div>
                 </div>
